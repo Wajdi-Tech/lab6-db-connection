@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DB_HOST: "db-service"
+  DB_PORT: "5432"
+  APP_ENV: "production"
+  WEB_PORT: "3000"
+
